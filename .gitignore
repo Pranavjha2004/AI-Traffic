@@ -1,0 +1,48 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+Backend/venv/
+
+# Node / frontend
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+
+# Build / coverage
+coverage/
+htmlcov/
+
+# Model weights and generated training outputs
+*.pt
+Backend/runs/
+Backend/datasets/
+Backend/Ambulance.coco/
+
+# Large generated media / temp
+*.log
+*.tmp
+*.temp

@@ -292,8 +292,8 @@ export default function App() {
 
       <header className="topbar">
         <div>
-          <p className="eyebrow">AI Traffic Detection and Management</p>
-          <h1>Live video stream, density analysis, and signal control</h1>
+          <p className="eyebrow">AI Traffic Management and Green Corridor System</p>
+          <h1>SmartSignal AI</h1>
         </div>
         <div className={`connection ${connected ? "online" : "offline"}`}>
           <span className="connection-dot" />
@@ -576,6 +576,10 @@ export default function App() {
 
         {!connected && error ? <section className="error-box">{error}</section> : null}
       </main>
+
+      <footer style={{ padding: "0 40px 28px", color: "#94a3b8", fontSize: "0.92rem", textAlign: "center" }}>
+        Copyright {new Date().getFullYear()} | Created and developed by ❤️ Pranav Jha
+      </footer>
     </div>
   );
 }
